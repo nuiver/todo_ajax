@@ -112,7 +112,7 @@ function deleteTodo(todoId) {
     .done(function(data) {
       updateCounters();
     });
-}
+} 
 
 function showError(message) {
   $("#todo_title").addClass("error");
